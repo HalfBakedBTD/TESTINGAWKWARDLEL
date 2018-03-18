@@ -24,7 +24,6 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity("s!help | shows help bar!", {type: "WATCHING"});
 });
 
 bot.on("message", async message => {
